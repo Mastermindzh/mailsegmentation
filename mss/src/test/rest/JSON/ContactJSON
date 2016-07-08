@@ -1,0 +1,26 @@
+====================================================================================
+
+** Add a contact:
+* You can add more variables, they should have the same name as the POJO
+* URL = http://localhost:8080/rest/categories/addContact
+{"email": "laure@mi-soft.nl"}
+
+====================================================================================
+
+** Delete a single contact:
+* URL = http://localhost:8080/rest/categories/deleteContact
+{"email": "laure@mi-soft.nl"}
+
+====================================================================================
+
+** Delete Multiple categories:
+* URL = http://localhost:8080/rest/categories/deleteContact
+{
+    "emails": [{
+        "email": "pascal@mi-soft.nl"
+    }, {
+        "email": "laure@mi-soft.nl"
+    }]
+}
+
+====================================================================================
